@@ -1,0 +1,105 @@
+$primary-orange: #f7a50e;
+$primary-black: #212227;
+$primary-white: #d5dfef;
+
+@import 'header';
+@import 'headshot';
+@import 'aboutme';
+@import 'languages';
+@import 'footer';
+@import 'portfolioItems';
+@import 'resume';
+
+html {
+  font-family: 'Raleway', sans-serif;
+
+  a {
+    text-decoration: none;
+    color: #d5dfef;
+  }
+}
+
+@media (max-width: 700px) {
+  .big-header {
+    display: none;
+  }
+
+  p.about-text {
+    font-size: 1.2rem;
+  }
+
+  p.about-text-next {
+    font-size: 1.2rem;
+  }
+}
+
+@media (min-width: 700px) {
+  .hamburger {
+    display: none;
+  }
+
+  .big-nav {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .big-header {
+    padding: 0.5rem 1.5rem 0 1.5rem;
+    font-size: 1.5rem;
+  }
+
+  .contact {
+    font-size: 1.2rem;
+  }
+
+  .headshot {
+    height: 17rem;
+  }
+
+  .headshot-container {
+    height: 28rem;
+  }
+
+  .headshot-container::after {
+    height: 33rem;
+  }
+
+  .about-me {
+    padding: 4rem;
+  }
+
+  .language-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .language {
+    height: 10rem;
+  }
+}
+
+@media (min-width: 1000px) {
+  .headshot-container {
+    height: 35rem;
+  }
+
+  .headshot-container::after {
+    height: 40rem;
+  }
+}
+
+@media (min-width: 1300px) {
+  .headshot-container {
+    height: 44rem;
+  }
+
+  .headshot-container::after {
+    height: 48rem;
+  }
+
+  .about-me {
+    padding: 4rem 7rem 4rem 7rem;
+  }
+}

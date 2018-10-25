@@ -1,0 +1,60 @@
+.resume-container {
+  background-color: #eff1f4;
+}
+
+.resume-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.resume {
+  height: 65rem;
+  margin: 2rem 0;
+}
+
+.pdf {
+  color: #17202a;
+  text-decoration: none;
+}
+
+.pdf-header {
+  margin: 1rem 0 0 0;
+}
+
+.pdf-icon {
+  height: 3.5rem;
+}
+
+a.pdf:hover {
+  color: #f7a50e;
+  transition: 0.4s all ease-in-out;
+}
+
+@media (max-width: 850px) {
+  .resume {
+    height: 50rem;
+    margin: 2rem 0;
+  }
+}
+
+@media (max-width: 650px) {
+  .resume {
+    height: 40rem;
+    margin: 2rem 0 8rem 0;
+  }
+}
+
+@media (max-width: 500px) {
+  .resume {
+    height: 30rem;
+    margin: 2rem 0 17rem 0;
+  }
+}
+
+@media (max-width: 400px) {
+  .resume {
+    height: 25rem;
+    margin: 2rem 0 21rem 0;
+  }
+}

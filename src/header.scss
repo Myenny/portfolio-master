@@ -1,0 +1,110 @@
+body {
+  margin: 0;
+}
+
+header {
+  padding: 20px;
+  background-color: green;
+  color: #d5dfef;
+  box-shadow: 0px 0.5px 5px $primary-black;
+  z-index: 2;
+
+  nav {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+
+    .hamburger {
+      cursor: pointer;
+      padding-top: 5px;
+    }
+
+    .hamburger div {
+      border: 1.5px solid #d5dfef;
+      width: 25px;
+      margin: 5px;
+    }
+  }
+}
+
+.big-header-links {
+  display: flex;
+}
+
+.big-header-links li {
+  padding: 0.6rem 2rem 0 2rem;
+}
+
+nav.big-nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hide {
+  display: none;
+}
+
+.contact {
+  font-size: 1rem;
+}
+
+.menu {
+  position: fixed;
+  right: 0;
+  width: 75%;
+  top: 0;
+  height: 100%;
+  background-color: #2355aa;
+  color: #d5dfef;
+  opacity: 0.93;
+  z-index: 3;
+
+  .menu-x {
+    position: absolute;
+    right: 1.5rem;
+    font-size: 2rem;
+    margin-top: 1.3rem;
+    margin-right: 5px;
+    cursor: pointer;
+  }
+
+  nav {
+    padding-top: 5rem;
+
+    .menu-contact {
+      font-size: 1.2rem;
+    }
+
+    li {
+      list-style: none;
+      font-size: 1.5rem;
+      padding: 1.5rem 0;
+    }
+  }
+}
+
+.link:hover {
+  color: #f7a50e;
+  transition: 0.4s all ease-in-out;
+}
+
+.active {
+  color: $primary-orange;
+  font-weight: 500;
+}
+
+.logo {
+  height: 4rem;
+}
+
+@media (min-width: 1300px) {
+  .big-header-links li {
+    padding: 0.6rem 4rem 0 4rem;
+  }
+}
+
+@media (max-width: 700px) {
+  .logo {
+    height: 2.5rem;
+  }
+}

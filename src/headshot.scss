@@ -1,0 +1,132 @@
+.headshot {
+  height: 12rem;
+  width: auto;
+  margin: auto;
+  border-radius: 100%;
+  border: 10px solid rgba($color: #d5dfef, $alpha: 0.5);
+}
+
+.headshot-title {
+  margin: 0;
+  padding: 0.2rem 0 0 0;
+  font-size: 2rem;
+  color: $primary-black;
+}
+
+p.headshot-aboutme {
+  margin: 0;
+  padding: 0 2rem;
+  font-size: 1.2rem;
+  color: $primary-black;
+  font-weight: 500;
+}
+
+.headshot-container {
+  height: 22rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 0;
+}
+
+.headshot-container::after {
+  content: '';
+  background: url('/images/beach.jpeg');
+  background-size: cover;
+  opacity: 0.4;
+  top: 4rem;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+  height: 25rem;
+}
+
+.about-me-links {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1rem;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+}
+
+.about-me-links:hover {
+  color: $primary-black;
+  transition: 0.4s all ease-in-out;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+}
+
+.view-work-button-section {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+button.view-work-button {
+  background-color: $primary-orange;
+  text-decoration: none;
+  border: none;
+  padding: 0.5rem 0;
+  margin-top: 0.5rem;
+}
+
+button.first {
+  flex: auto;
+  margin-right: 3px;
+}
+
+button.second {
+  flex: auto;
+  margin-left: 3px;
+}
+
+@media (max-width: 350px) {
+  .about-me-links {
+    font-size: 0.9rem;
+  }
+}
+
+@media (min-width: 500px) {
+  .about-me-links {
+    font-size: 1.2rem;
+  }
+
+  .headshot-aboutme {
+    width: 22rem;
+  }
+
+  button.view-work-button {
+    padding: 0.7rem 0;
+  }
+}
+
+@media (min-width: 700px) {
+  .headshot-title {
+    font-size: 2.5rem;
+  }
+
+  p.headshot-aboutme {
+    font-size: 1.3rem;
+  }
+
+  img.headshot {
+    margin-bottom: 0;
+  }
+}
+
+@media (min-width: 1000px) {
+  p.headshot-aboutme {
+    margin-bottom: 3rem;
+  }
+}
+
+@media (min-width: 1300px) {
+  p.headshot-aboutme {
+    margin-bottom: 10rem;
+  }
+}

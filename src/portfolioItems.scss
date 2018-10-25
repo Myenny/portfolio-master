@@ -1,0 +1,112 @@
+.portfolio-head {
+  color: $primary-black;
+  text-align: center;
+  padding: 0 1rem 1rem 1rem;
+}
+
+.portfolio-image {
+  height: 13rem;
+  width: 21.4rem;
+  border-radius: 10px;
+  padding: 1rem 0;
+  background-size: contain;
+  padding: 0;
+  margin: 1rem 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  box-shadow: 0px 3px 3px #868784;
+}
+
+.portfolio-main {
+  width: 100%;
+}
+
+.portfolio-items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 0 0 3rem 0;
+  margin: 0;
+}
+
+.portfolio-description {
+  text-align: center;
+  background-color: $primary-black;
+  color: #d5dfef;
+  margin: 0;
+  padding: 2.5rem 0;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  opacity: 0;
+  font-size: 1.3rem;
+}
+
+.portfolio-description p {
+  margin: 0;
+}
+
+.portfolio-description p:last-child {
+  margin-top: 0.5rem;
+}
+
+.portfolio-image:hover .portfolio-description {
+  opacity: 0.8;
+  transition: all 0.5s;
+}
+
+.portfolio-items a {
+  text-decoration: none;
+}
+
+.my-repo {
+  height: 1rem;
+  padding: 0 1px;
+}
+
+.repositories {
+  color: $primary-black;
+  text-decoration: underline;
+}
+
+.repositories:hover {
+  color: $primary-orange;
+  text-decoration: none;
+  transition: 0.4s;
+}
+
+.repo {
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+@media (max-width: 350px) {
+  .portfolio-image {
+    height: 10.9rem;
+    width: 18rem;
+  }
+}
+
+@media (min-width: 700px) {
+  .portfolio-image {
+    height: 20rem;
+    width: 33rem;
+    margin: 1rem;
+  }
+
+  .portfolio-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 700px) {
+  .portfolio-description {
+    opacity: 0.8;
+    padding: 1.5rem;
+  }
+}

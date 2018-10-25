@@ -1,0 +1,86 @@
+[
+  {
+    "title": "octodex",
+    "imageURL": "./images/octodex.png",
+    "sourceURL": "http://domineering-bat.surge.sh/",
+    "description": "Replicate GitHub Octodex",
+    "language": "React.js, CSS3"
+  },
+  {
+    "title": "shopping",
+    "imageURL": "./images/shopping.png",
+    "sourceURL": "http://tubss-shopping-benjaminjehl.surge.sh/",
+    "description": "Shopping Site Template",
+    "language": "React.js, Bulma"
+  },
+  {
+    "title": "photo gallery",
+    "imageURL": "./images/photo-gallery.png",
+    "sourceURL": "http://myfavoritethings-benjaminjehl.surge.sh/",
+    "description": "Photo Gallery",
+    "language": "React.js, Bulma"
+  },
+  {
+    "title": "weather",
+    "imageURL": "./images/weather.png",
+    "sourceURL": "http://weather-benjaminjehl.surge.sh/",
+    "description": "Check Your Weather!",
+    "language": "JavaScript, HTML5, CSS3"
+  },
+  {
+    "title": "color picker",
+    "imageURL": "./images/color-picker.png",
+    "sourceURL": "http://colorpicker-benjaminjehl.surge.sh/",
+    "description": "A Color Picker",
+    "language": "React.js, CSS3"
+  },
+  {
+    "title": "movies",
+    "imageURL": "./images/movies.png",
+    "sourceURL": "http://90smoviesite-benjaminjehl.surge.sh/",
+    "description": "90's Style Movie Listings",
+    "language": "React.js, CSS3"
+  },
+  {
+    "title": "minesweeper",
+    "imageURL": "./images/minesweeper.png",
+    "sourceURL": "http://minesweeper-benjaminjehl.surge.sh/",
+    "description": "Classic Minesweeper Game",
+    "language": "React.js, CSS3"
+  },
+  {
+    "title": "crypto tracker",
+    "imageURL": "./images/crypto.png",
+    "sourceURL": "http://cryptotracker-benjaminjehl.surge.sh/",
+    "description": "Crypto-Currency Tracker",
+    "language": "React.js, CSS3"
+  },
+  {
+    "title": "black jack",
+    "imageURL": "./images/blackjack.png",
+    "sourceURL": "http://blackjack-benjaminjehl.surge.sh/",
+    "description": "BlackJack Game",
+    "language": "JavaScript, HTML5, CSS3"
+  },
+  {
+    "title": "roshambo",
+    "imageURL": "./images/roshambo.png",
+    "sourceURL": "http://roshambo-benjaminjehl.surge.sh/",
+    "description": "Rock, Paper, Scissors!",
+    "language": "JavaScript, HTML5, CSS3"
+  },
+  {
+    "title": "articles",
+    "imageURL": "./images/articles.png",
+    "sourceURL": "http://articles-benjaminjehl.surge.sh/",
+    "description": "News Article Layout",
+    "language": "HTML5, CSS3"
+  },
+  {
+    "title": "tic tac toe",
+    "imageURL": "./images/tictactoe.png",
+    "sourceURL": "http://tic-tac-toe-benjaminjehl.surge.sh/",
+    "description": "Game of Tic-Tac-Toe",
+    "language": "JavaScript, HTML5, CSS3"
+  }
+]

@@ -1,0 +1,32 @@
+p.skills {
+  margin-bottom: 0;
+}
+
+.language {
+  height: 7rem;
+  padding-top: 1.5rem;
+}
+
+.skills {
+  padding-bottom: 1rem;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.language-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+section.skills-section {
+  background-color: #eff1f4;
+  width: 100%;
+  padding-bottom: 3rem;
+}
+
+.skills-lang {
+  text-align: center;
+  font-size: 1rem;
+  padding: 2.5rem 1rem 0 1rem;
+}
