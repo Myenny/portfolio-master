@@ -51,7 +51,7 @@ class Header extends Component {
               </li>
               <li className="big-header">
                 <NavLink className="link" title="View my Resume" to="/resume">
-                  Résumé
+                  Resume
                 </NavLink>
               </li>
               <li className="big-header">
