@@ -9,16 +9,16 @@ class Languages extends Component {
             <strong>My current tool-set includes:</strong>
           </p>
           <div className="language-container">
-            <img
-              className="language"
-              alt="React logo"
-              src="./images/react.png"
-            />
             <img className="language" alt="C#" src="./images/c.png" />
             <img
               className="language"
               alt="JavaScript logo"
               src="./images/javascript.png"
+            />
+            <img
+              className="language"
+              alt="React logo"
+              src="./images/react.png"
             />
             <img className="language" alt="SCSS logo" src="./images/sass.png" />
             <img className="language" alt="HTML logo" src="./images/html.png" />

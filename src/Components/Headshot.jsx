@@ -12,7 +12,7 @@ class Headshot extends Component {
     return (
       <>
         <section className="headshot-container">
-          <img className="headshot" src="/images/square.jpg" alt="headshot" />
+          <img className="headshot" src="./square.jpg" alt="headshot" />
           <h1 className="headshot-title">Hello!</h1>
           <p className="headshot-aboutme">
             My name is Michael Yenny and I am a Full Stack Web Developer.
@@ -29,7 +29,7 @@ class Headshot extends Component {
               <button className="view-work-button second">
                 <Link
                   to="/resume"
-                  title="View my Résumé!"
+                  title="View my Resume!"
                   className="about-me-links"
                 >
                   View my Resume
