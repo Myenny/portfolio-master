@@ -9,7 +9,7 @@
   {
     "title": "minesweeper",
     "imageURL": "./images/minesweeper.png",
-    "sourceURL": "http://madly-cub.surge.sh/",
+    "sourceURL": "http://my-mine-sweeper.surge.sh/",
     "description": "Classic Minesweeper Game",
     "language": "React.js, CSS3"
   },
