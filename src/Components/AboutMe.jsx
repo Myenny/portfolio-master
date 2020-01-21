@@ -10,10 +10,6 @@ class AboutMe extends Component {
               This website was designed, coded and styled using React.js and
               Sass. Please reach out to learn if I would make a good fit for
               your team at:{' '}
-              <a className="about-contact" href="tel://19044650044">
-                904-465-0044
-              </a>{' '}
-              or
               <a
                 className="about-contact"
                 href="mailto:michaeljyenny@gmail.com"
